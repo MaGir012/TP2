@@ -1,4 +1,3 @@
-// API à utiliser pour le travail: https://randomuser.me/api/?results=5
 fetch('https://randomuser.me/api/?results=5')
     .then(response => response.json())
     .then(data => {
