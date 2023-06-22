@@ -7,7 +7,7 @@ fetch('https://randomuser.me/api/?results=5')
             card.classList.add('card');
             card.innerHTML = `
                         <img src="${result.picture.large}" alt="Photo de profil">
-                        <h2>Nom: ${result.name.title} ${result.name.first} ${result.name.last}</h2>
+                        <h2>Nom: ${result.name.first} ${result.name.last}</h2>
                         <p>Email: ${result.email}</p>
                     `;
             cards.appendChild(card);
